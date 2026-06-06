@@ -1,0 +1,58 @@
+[0m16:35:12.845837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021159F56120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021157BAD310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002115C32FC50>]}
+
+
+============================== 16:35:12.946353 | 52ee1882-cb7d-47a8-8f49-964d922126f9 ==============================
+[0m16:35:12.946353 [info ] [MainThread]: Running with dbt=1.11.11
+[0m16:35:12.948073 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init nyc_yellow_taxi', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:35:13.129674 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\HP\.dbt
+[0m16:35:13.135614 [debug] [MainThread]: Starter project path: C:\Users\HP\Documents\dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m16:35:13.181250 [info ] [MainThread]: 
+Your new dbt project "nyc_yellow_taxi" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:35:13.182303 [info ] [MainThread]: Setting up your profile.
+[0m16:36:59.478930 [info ] [MainThread]: Profile nyc_yellow_taxi written to C:\Users\HP\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m16:36:59.480884 [debug] [MainThread]: Command `dbt init` succeeded at 16:36:59.480656 after 106.90 seconds
+[0m16:36:59.481562 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002115C429CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002115AC80DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002115C6F0C00>]}
+[0m16:36:59.482223 [debug] [MainThread]: Flushing usage events
+[0m16:37:00.534748 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:58:49.701172 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB3C2D67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB3901F610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB3E6AFC50>]}
+
+
+============================== 19:58:49.711783 | db8d32f6-e6b6-405b-b1f9-a3caf7622435 ==============================
+[0m19:58:49.711783 [info ] [MainThread]: Running with dbt=1.11.11
+[0m19:58:49.713934 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init looker_ecommerce', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:58:49.783303 [debug] [MainThread]: Starter project path: C:\Users\HP\Documents\dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m19:58:49.815672 [info ] [MainThread]: 
+Your new dbt project "looker_ecommerce" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:58:49.816597 [info ] [MainThread]: Setting up your profile.
+[0m20:00:19.097195 [debug] [MainThread]: Command `dbt init` succeeded at 20:00:19.096913 after 89.88 seconds
+[0m20:00:19.097885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB3E6BBCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB3E7DFE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB3E8BC6B0>]}
+[0m20:00:19.098520 [debug] [MainThread]: Flushing usage events
+[0m20:00:20.270760 [debug] [MainThread]: An error was encountered while trying to flush usage events
