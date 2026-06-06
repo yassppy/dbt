@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: looker_ecommerce
+    tables:
+      - name: users
+      - name: events
+      - name: inventory_items
+      - name: order_items
+      - name: orders
+      - name: products

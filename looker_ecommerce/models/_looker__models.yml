@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: stg_looker__distribution_centers
+    description: Distributions centers name and location
+  - name: stg_looker__orders
+    description: Orders information such as order status
